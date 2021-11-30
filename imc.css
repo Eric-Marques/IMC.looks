@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    margin-top: 15rem;
+    margin-left: 35rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+
+    height: 300px;
+    width: 300px;
+}
+
+.title, .input {
+    text-align: center;
+    color: black;
+    margin: 10px 0px 10px 0px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#calcular {
+    padding: 10px 50px 10px 50px;
+}
+
+.result {
+    background-color: yellow;
+    color: black;
+    margin: 10px 50px 30px 50px;
+    border-radius: 5px;
+}
